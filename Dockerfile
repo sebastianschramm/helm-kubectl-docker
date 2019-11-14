@@ -1,6 +1,4 @@
-FROM alpine:3.9
-
-MAINTAINER Sergii Nuzhdin <ipaq.lw@gmail.com>
+FROM python:3.7
 
 ARG K8S_VERSION
 ARG HELM_VERSION
